@@ -59,10 +59,9 @@ ol {
 
 .content__list {
   position: relative;
-  overflow-x: hidden;
   overflow-y: auto; /* (1 шаг, 5 пункт)*/
   block-size: 298px; /* (1 шаг, 5 пункт)*/
-  inline-size: 399px;
+  inline-size: 100%;
 }
 
 .content__details {
@@ -100,7 +99,7 @@ ol {
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 200px min-content;
+  grid-template-columns: 1fr min-content;
   justify-content: space-between;
   align-content: start;
 }
